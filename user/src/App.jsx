@@ -74,6 +74,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/scheme_eligibity" element={<SchemeEligibilty />} />
         <Route path="/schemes" element={<Scheme />} />
+        
         <Route path="/scheme/:id" element={<SchemeDetails />} />
         <Route path="/apply" element={isAuthenticated ? <SchemeAppliedForm /> : <UserLogin />} />
         <Route path="/scheme_applied_success" element={isAuthenticated ? <SchemeAppliedConfirmationPage /> : <Login />} />

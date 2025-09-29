@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 const schemeSchema = new mongoose.Schema({
   scheme_name: {
     type: String,
-    required: true
+    required: true 
   },
   scheme_dept: {
     type: String,
